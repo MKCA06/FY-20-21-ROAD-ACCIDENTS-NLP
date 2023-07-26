@@ -17,14 +17,14 @@ Direct Cause: Direct cause of the accident.
 ## Code
 The project code is written in Python and involves various NLP techniques to extract and classify relevant information from the "Details" column of the dataset. Below are some of the key functions used in the code:
 
-1.extract_transport_mode(text): Extracts the mode of transport involved in the accident from the given text.
-2.extract_direct_cause(text): Identifies the direct cause of the accident from the provided text.
-3.extract_location2(text): Extracts the location of the accident from the given text using entity recognition (GPE - Geopolitical Entity).
-4.extract_shift(text): Identifies the shift time (A, B, C, or G) mentioned in the text.
-5.extract_time(text): Extracts any time-related information from the text.
-6.object_hinderance(text): Checks if there was any object hinderance involved in the accident.
-7.Person_fault(text): Checks if the accident was due to the fault of a person.
-8.severity_safe(text, text2): Classifies the severity of the accident based on injury and fracture information.
+1.**extract_transport_mode(text)**: Extracts the mode of transport involved in the accident from the given text. .<br>
+2.**extract_direct_cause(text)**: Identifies the direct cause of the accident from the provided text. .<br>
+3.**extract_location2(text)**: Extracts the location of the accident from the given text using entity recognition (GPE - Geopolitical Entity). .<br>
+4.**extract_shift(text)**: Identifies the shift time (A, B, C, or G) mentioned in the text. .<br>
+5.**extract_time(text)**: Extracts any time-related information from the text. .<br>
+6.**object_hinderance(text)**: Checks if there was any object hinderance involved in the accident. .<br>
+7.**Person_fault(text)**: Checks if the accident was due to the fault of a person. .<br>
+8.**severity_safe(text, text2)**: Classifies the severity of the accident based on injury and fracture information. .<br>
 
 
 The code processes the "Details" column of the dataset and creates additional columns in the dataframe to store the extracted information, such as transport mode, location, shift time, time, object hinderance, person fault, accident severity, and direct cause.
